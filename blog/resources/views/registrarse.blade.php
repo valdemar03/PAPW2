@@ -27,9 +27,9 @@
             <div class="divFiltro">
                 <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="inicio" value="Inicio"></a><br><br><br><br>
                 <a href="{{ route('registrarse') }}"><input class="btn" type="submit" name="Registrarse" value="Registrarse"></a><br><br><br><br>
-                <a href=""><input class="btn" type="submit" name="Trailers" value="Trailers"></a><br><br>
-                <a href=""><input class="btn" type="submit" name="Demos" value="Demos"></a><br><br>
-                <a href=""><input class="btn" type="submit" name="Juegos" value="juegos"></a><br><br><br>
+                <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="Trailers" value="Trailers"></a><br><br>
+                <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="Demos" value="Demos"></a><br><br>
+                <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="Juegos" value="juegos"></a><br><br><br>
                 <a href="{{ route('chatprivado') }}"><input class="btn" type="submit" name="chatPrivado" value="Chat Privado"></a><br><br>
             </div>
             <div class="divRegistrarse">

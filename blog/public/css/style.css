@@ -131,3 +131,9 @@ video
 {
     display: inline-block;
 }
+.contacto:hover
+{
+    background-color: rgba(60, 116, 4, 0.411);
+    border-radius: 60px;
+    border-style: hidden;
+}
