@@ -1,0 +1,133 @@
+*
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header
+{
+    background-color: rgb(1, 49, 49);
+    padding: 5px;
+}
+.divLogo, .divBuscar, .divLogin, .divFiltro, .divTrailers, .divRegistrarse
+{
+    display: inline-block;
+}
+.divLogo
+{
+    width: 10%;
+}
+.divBuscar
+{
+    width: 50%;
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+.divLogin
+{
+    width: 30%;
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+}
+input
+{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(60, 116, 4);
+    color: white;
+}
+input::placeholder
+{
+    color: white;
+}
+input:hover
+{
+    background-color: teal;
+}
+.divPrincipal
+{
+    display: inline-block;
+}
+.container
+{
+    width: 100%;
+}
+.divFiltro
+{
+    width: 20%;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.divTrailers
+{
+    width: 79%;
+    margin: 10px 0 0 0;
+    position: absolute;
+}
+.btn
+{
+    width: 80%;
+    background-color:  rgb(0, 83, 83);
+    color: white;
+    padding: 10px 0 10px 0;
+}
+.btn:hover
+{
+    background-color: lawngreen;
+}
+.divDatos
+{
+    width: 10%;
+}
+.divPrincipal.divP
+{
+    width: 70%;
+    display: inline-block;
+}
+.divPrincipal.dp:hover
+{
+    background-color:  rgb(60, 116, 4);
+}
+.divDatos
+{
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+}
+.divChat
+{
+   width: 80%;
+   padding: 10px;
+   margin: 10px 0 10px 0;
+   background-color: rgba(7, 82, 126, 0.315);
+}
+video
+{
+    position: absolute;
+    margin: 0 0 0 10px;
+}
+.direcion
+{
+    position: absolute;
+    top: 350px;
+    height: 40px;
+    width: 100px;
+}
+.direcionD
+{
+    position: absolute;
+    top: 350px;
+    height: 40px;
+    left: 712px;
+    width: 100px;
+}
+.divRegistrarse
+{
+    position: absolute;
+    top: 85px;
+}
+.divChat
+{
+    display: inline-block;
+}
