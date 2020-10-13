@@ -8,7 +8,7 @@ header
     background-color: rgb(1, 49, 49);
     padding: 5px;
 }
-.divLogo, .divBuscar, .divLogin, .divFiltro, .divTrailers, .divRegistrarse
+.divLogo, .divBuscar, .divLogin, .divFiltro, .divTrailers, .divRegistrarse, .dC, .dD
 {
     display: inline-block;
 }
@@ -136,4 +136,17 @@ video
     background-color: rgba(60, 116, 4, 0.411);
     border-radius: 60px;
     border-style: hidden;
+}
+.dD
+{
+    position: absolute;
+    width: 20%;
+}
+.dC
+{
+    width: 80%;
+}
+.idD
+{
+    width: 100%;
 }

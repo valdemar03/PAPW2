@@ -33,16 +33,24 @@
                 <a href="{{ route('chatprivado') }}"><input class="btn" type="submit" name="chatPrivado" value="Chat Privado"></a><br><br>
                 <a href="{{ route('agregarContenido') }}"><input class="btn" type="submit" name="agregarContenido" value="Agregar Contenido"></a><br><br>
             </div>
-            <div class="divRegistrarse">
-                <form action="">
-                    <input type="text" name="nombre" placeholder="Nombre" size="100%"><br><br>  
-                    <input type="text" name="apellidoPaterno"placeholder="Apellido Paterno" size="100%"><br><br>
-                    <input type="text" name="apellidoMaterno" placeholder="Apellido Materno" size="100%"><br><br>
-                    <input type="email" name="email" placeholder="Correo Electronico" size="100%"><br><br>
-                    <input type="text" name="nombreUsuario" placeholder="Nombre Usuario" size="100%"><br><br>
-                    <input type="password" name="password" placeholder="Contraseña" size="100%"><br><br>
-                </form>
-                <img src="img/GT_P.Png" alt="">
+            <div class="divTrailers">
+                <div class="dC">
+                    <div class="dp">
+                        <img src="img/GT_P.png" alt="No hay Imagen" width="500">
+                        <img src="img/GT_P.png" alt="No hay Imagen" width="200">
+                        <img src="img/GT_P.png" alt="No hay Imagen" width="200">
+                        <form action="">
+                            <input type="text" name="nombre" value="Nombre" size="50"><br><br>
+                            <textarea name="" id="" cols="50" rows="10"></textarea><br><br>
+                            <input type="file" name="Imagen" value="Imagen">
+                        </form>
+                    </div>
+                </div>
+                <div class="dD">
+                    <input type="submit" class="idD" name="Agregar" value="Agregar"><br><br>
+                    <input type="submit" class="idD" name="Editar" value="Editar"><br><br>
+                    <input type="submit" class="idD" name="Eliminar" value="Eliminar"><br><br>
+                </div>
             </div>
         </div>
     </body>

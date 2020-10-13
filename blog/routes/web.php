@@ -33,3 +33,7 @@ Route::get('registrarse', function () {
 Route::get('chat_privado', function () {
     return view('chat_privado');
 })->name('chatprivado');
+
+Route::get('agregarContenido', function () {
+    return view('agregarContenido');
+})->name('agregarContenido');

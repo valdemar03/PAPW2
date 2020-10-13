@@ -31,6 +31,7 @@
                 <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="Demos" value="Demos"></a><br><br>
                 <a href="{{ route('inicio') }}"><input class="btn" type="submit" name="Juegos" value="juegos"></a><br><br><br>
                 <a href="{{ route('chatprivado') }}"><input class="btn" type="submit" name="chatPrivado" value="Chat Privado"></a><br><br>
+                <a href="{{ route('agregarContenido') }}"><input class="btn" type="submit" name="agregarContenido" value="Agregar Contenido"></a><br><br>
             </div>
             <div class="divTrailers">
                 <div class="divPrincipal divP">
