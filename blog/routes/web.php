@@ -37,3 +37,5 @@ Route::get('chat_privado', function () {
 Route::get('agregarContenido', function () {
     return view('agregarContenido');
 })->name('agregarContenido');
+
+Route::post('/','crearUsuario')->name('usuarios.crear');   

@@ -34,13 +34,14 @@
                 <a href="{{ route('agregarContenido') }}"><input class="btn" type="submit" name="agregarContenido" value="Agregar Contenido"></a><br><br>
             </div>
             <div class="divRegistrarse">
-                <form action="">
+                <form action="{{ route('usuarios.crear') }}"  method="POST">
                     <input type="text" name="nombre" placeholder="Nombre" size="100%"><br><br>  
                     <input type="text" name="apellidoPaterno"placeholder="Apellido Paterno" size="100%"><br><br>
                     <input type="text" name="apellidoMaterno" placeholder="Apellido Materno" size="100%"><br><br>
                     <input type="email" name="email" placeholder="Correo Electronico" size="100%"><br><br>
                     <input type="text" name="nombreUsuario" placeholder="Nombre Usuario" size="100%"><br><br>
                     <input type="password" name="password" placeholder="Contraseña" size="100%"><br><br>
+                    <input type="submit" value="Enviar">
                 </form>
                 <img src="img/GT_P.Png" alt="">
             </div>
