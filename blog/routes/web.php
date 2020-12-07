@@ -22,6 +22,8 @@ Route::get('/', function () {
     return view('inicio');
 })->name('inicio');
 
+Route::resource('usaurio','UsuarioController');
+
 Route::get('juego', function () {
     return view('juego');
 })->name('juego');
@@ -38,4 +40,4 @@ Route::get('agregarContenido', function () {
     return view('agregarContenido');
 })->name('agregarContenido');
 
-Route::post('/','crearUsuario')->name('usuarios.crear');   
+//Route::post('/','crearUsuario')->name('usuarios.crear');   
