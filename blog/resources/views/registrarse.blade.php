@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html Lang="en">
+<html Lang ="en">
     <head>
         <title>GT</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -34,7 +34,7 @@
                 <a href="{{ route('agregarContenido') }}"><input class="btn" type="submit" name="agregarContenido" value="Agregar Contenido"></a><br><br>
             </div>
             <div class="divRegistrarse">
-                <form action="{{ route('usuarios.crear') }}"  method="POST">
+                <form action=""  method="POST">
                     <input type="text" name="nombre" placeholder="Nombre" size="100%"><br><br>  
                     <input type="text" name="apellidoPaterno"placeholder="Apellido Paterno" size="100%"><br><br>
                     <input type="text" name="apellidoMaterno" placeholder="Apellido Materno" size="100%"><br><br>

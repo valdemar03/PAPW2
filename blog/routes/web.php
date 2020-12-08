@@ -23,6 +23,7 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::resource('usaurio','UsuarioController');
+Route::resource('trailer','TrailerController');
 
 Route::get('juego', function () {
     return view('juego');
