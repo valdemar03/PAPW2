@@ -8,6 +8,7 @@
         <header>
             <div class="divLogo">
                 <img src="img/GT.png" alt="No hay Imagen"  width="80%">
+                @yield('contenido')
             </div>
             <div class="divBuscar">
                 <form class="frmBuscar" action="">
