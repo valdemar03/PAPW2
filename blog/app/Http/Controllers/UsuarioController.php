@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use blog\Http\Requests;
-use blog\Usuario;
+use app\Models\Usuario;
 use Illuminate\Support\Facades\Redirect;
-use blog\Http\Requests\UsuarioFormRequest;
+use app\Http\Requests\UsuarioFormRequest;
 use DB;
 
 class UsuarioController extends Controller
