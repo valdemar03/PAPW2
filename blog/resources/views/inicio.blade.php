@@ -36,10 +36,7 @@
             </div>
             <div class="divTrailers">
                
-                <div class="divPrincipal dp">
-                    <a href="juego"><img src="img/GT_P.png" alt="No hay Imagen" width="165"></a>
-                    <h3>Proximamente...</h3>
-                </div>
+              
                 <div class="divPrincipal dp">
                     <a href="juego"><img src="img/GT_P.png" alt="No hay Imagen" width="165"></a>
                     <h3>Proximamente...</h3>
